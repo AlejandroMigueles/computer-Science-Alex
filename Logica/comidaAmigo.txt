@@ -1,0 +1,23 @@
+1.-¿Quiero ir?{
+no:si:
+no--> ¿es muy amigo mio?:si:no:
+no-->no voy-->Fin
+si-->
+2.-Debo ir
+}
+3.-¿tienes tiempo?si:no:
+no-->fin
+si-->
+4.-tienes dinero?:si:no
+no-->hablar con el-->decirle que no voy.
+si:-->
+5.-Preguntarle a donde quiere ir:
+6.-El lugar me gusta?si:no:
+No-->proponer otro lugar
+sí-->
+7.-Proponer el día y la hora
+8.-Ir a comer:
+9.-Ya en el restaurante elegir comida
+10.-Elegir bebida
+11.-Echar chisme
+12.-Disfrutar el momento.
