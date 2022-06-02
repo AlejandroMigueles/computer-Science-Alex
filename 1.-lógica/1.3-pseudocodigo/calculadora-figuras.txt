@@ -1,0 +1,20 @@
+Inicio
+Solicita figura
+Guarda figura en fig
+Solicita tipo de cálculo
+Guarda tipo de cálculo en calc
+Si y solo si figura es triangulo y calculo área ENTONCES pedir b,h y A=b*h/2
+Guardar Resultado=A
+Si y solo si figura es triangulo y calculo perímetro ENTONCES pedir L y P=3*L
+Guardar Resultado=P
+Si y solo si figura es Cuadrado y calculo área ENTONCES pedir L y A=L*L
+Guardar Resultado=A
+Si y solo si figura es Cuadrado y calculo perímetro ENTONCES pedir L y P=4*L
+Guardar Resultado=P
+Si y solo si figura es Rectangulo y calculo área ENTONCES pedir b,h y A=b*h
+Guardar Resultado=A
+Si y solo si figura es Rectángulo y calculo perímetro ENTONCES pedir L y P=2b+2h
+Guardar Resultado=P
+Mostrar Resultado
+Si el usuario solicita un nuevo cálculo nuevamente se solicita figura
+Sino Fin
