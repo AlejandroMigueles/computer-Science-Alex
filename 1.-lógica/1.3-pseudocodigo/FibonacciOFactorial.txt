@@ -1,0 +1,29 @@
+1.-Inicio
+2.-Pide al usuario operacion, si Necesita fibonacci o Factorial de un número
+3.-Guarda la operacion en op
+4.-Pide al usuario un número
+5.-Guarda número en n
+	si op es igual a factorial
+		crea variable factorial=1
+		crea variable i=1
+		mientras i<=n
+			factorial=factorial*i
+			i=i+1
+		resultado=factorial
+	si op es igual a fibonacci, entonces
+		si n>=2
+			crea variable F0=1
+			crea variable F1=1
+			crea variable i=1
+			crea lim=n-1
+			mientras i<=lim
+				Fib=F0+F1
+				F0=F1
+				F1=fib
+				i=i+1
+			resultado=fib
+		sino
+			resultado=1
+6.-Imprime resultado
+7.-Finaliza el programa
+
