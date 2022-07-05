@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -31,7 +30,6 @@
 
 body {
     font-family: 'RobotoDraft', sans-serif;
-    background-color: #20c997;
 }
 
 .title {

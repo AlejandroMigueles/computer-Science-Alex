@@ -29,8 +29,8 @@ const getPokemons = async () => {
     // fetch('https://pokeapi.co/api/v2/pokemon/', { method: 'GET' })
     //     .then(response => response.json())
     //     .then(pokemons => console.log('pokemons: ', pokemons));
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon');
-    //const response = await fetch('./assets/kanto.json');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/');
+    // const response = await fetch('./assets/kanto.json');
     const responseJson =  await response.json();
     const pokemons = responseJson.results;
     for(const element of pokemons){
